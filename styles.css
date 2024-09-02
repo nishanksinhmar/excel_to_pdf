@@ -1,0 +1,122 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="date"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset legend {
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  br {
+    margin-bottom: 20px;
+  }
+
+   /* Add some basic CSS styles */
+   .report-card {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.student-info {
+    display: inline-block;
+    float: left;
+    background-color: #bfbfbf;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.grades {
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-inline{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:start; 
+}
+
+.form-inline label {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.class{
+  background-color: #bfbfbf;
+  display: inline-block;
+  float: left;
+} 
+.result{  
+  background-color: #bfbfbf;
+  display: inline-block;
+  align-self: center;
+  justify-content:center;
+} 
+
+.form-control {
+    width: 100%;
+}
+.marks{
+  display: inline-block;
+  float: right;
+
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
